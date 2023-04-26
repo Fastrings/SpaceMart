@@ -20,9 +20,7 @@ try:
     conn = psycopg2.connect(**params)
     cur = conn.cursor()
 
-    cur.execute('CREATE TABLE IF NOT EXISTS mytable (id SERIAL PRIMARY KEY, name VARCHAR(255), age INTEGER);')
-    cur.execute("INSERT INTO mytable (name, age) VALUES ('Alice', 25), ('Bob', 30);")
-    cur.execute('SELECT * FROM mytable;')
+    cur.execute("SELECT table_name FROM information_schema.tables WHERE table_schema='public'")
     
     rows = cur.fetchall()
     for row in rows:
