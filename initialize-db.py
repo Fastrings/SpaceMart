@@ -20,7 +20,7 @@ try:
     conn = psycopg2.connect(**params)
     cur = conn.cursor()
 
-    cur.execute("SELECT table_name FROM information_schema.tables WHERE table_schema='public'")
+    cur.execute("select column_name, data_type, character_maximum_length, column_default, is_nullable from INFORMATION_SCHEMA.COLUMNS where table_schema = 'public';")
     
     rows = cur.fetchall()
     for row in rows:
