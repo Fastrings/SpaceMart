@@ -21,3 +21,4 @@ class SpaceMart():
 
     def pay_taxes(self):
         self.budget -= 30
+        print(f"Remaining budget: {self.budget}")

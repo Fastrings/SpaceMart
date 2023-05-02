@@ -1,5 +1,6 @@
 from spacemart import SpaceMart
 import argparse, pyinputplus as pyip
+from json_interface import get_starting_inventory
 
 def user_interaction(mart):
     result = pyip.inputMenu(['Continue', 'Give up', 'Fast forward'], "What do you want to do?\n", numbered=True)
@@ -13,7 +14,18 @@ def user_interaction(mart):
             return (True, result2)
         case _:
             pass
-    
+
+def fast_forward(current_time, jump):
+    mart.add_time(jump)
+    cpt = 0
+    for i in range(current_time, current_time + jump):
+        if i % 30 == 0:
+            cpt += 30
+
+    mart.budget -= cpt
+    print(f"Fast forwarded {jump} days in the future. In the meantime, you paid {cpt} space dollars in taxes.")
+    print(f"Remaining budget: {mart.get_budget()}")
+
 def init(mart):
     print("This is the beginning of the program.")
     print(f"Your total budget is: {mart.get_budget()}.")
@@ -22,9 +34,9 @@ def init(mart):
 
 def main_loop(mart):
     init(mart)
+    inv = get_starting_inventory()
     while True:
         days = mart.get_time_passed() # updating time passed
-        budget = mart.get_budget() # updating current budget
 
         mart.budget_check() # checking if we still have money
 
@@ -35,7 +47,7 @@ def main_loop(mart):
                 break
             else:
                 if ff != 0:
-                    mart.add_time(ff)
+                    fast_forward(days, ff)
                     continue
         if days % 30 == 0: # pay taxes every month
             txt = "1 month has passed" if days == 30 else f"{int(days / 30)} months have passed"
@@ -43,7 +55,7 @@ def main_loop(mart):
             print("You paid 30 space dollars in taxes.")
             mart.pay_taxes()
         
-        mart.add_time() # go forward in time
+        mart.add_time() # go forward 1 day in time
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Emulation of an inventory management system.")
