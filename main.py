@@ -1,4 +1,5 @@
 from spacemart import SpaceMart
+import argparse
 
 def user_interaction(budget):
     x = input(f"Remaining budget: {budget}.\nDo you want to continue? (Y/N)")
@@ -30,5 +31,12 @@ def main_loop(mart):
         mart.add_time() # go forward in time
 
 if __name__ == '__main__':
-    mart = SpaceMart(100)
+    parser = argparse.ArgumentParser(description="Emulation of an inventory management system.")
+
+    parser.add_argument("-b", "--budget", required=True, help="starting budget B of space mart", metavar="B")
+
+    args = parser.parse_args()
+    budget = args.budget
+
+    mart = SpaceMart(budget)
     main_loop(mart)
