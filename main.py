@@ -24,7 +24,6 @@ def main_loop(mart):
     init(mart)
     while True:
         days = mart.get_time_passed() # updating time passed
-        budget = mart.get_budget() # updating current budget
 
         mart.budget_check() # checking if we still have money
 
