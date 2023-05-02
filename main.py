@@ -37,5 +37,5 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    mart = SpaceMart(args.budget)
+    mart = SpaceMart(int(args.budget))
     main_loop(mart)
