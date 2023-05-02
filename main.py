@@ -1,5 +1,6 @@
 from spacemart import SpaceMart
 import argparse, pyinputplus as pyip
+from json_interface import get_starting_inventory
 
 def user_interaction(mart):
     result = pyip.inputMenu(['Continue', 'Give up', 'Fast forward'], "What do you want to do?\n", numbered=True)
@@ -22,6 +23,7 @@ def init(mart):
 
 def main_loop(mart):
     init(mart)
+    inv = get_starting_inventory()
     while True:
         days = mart.get_time_passed() # updating time passed
 
