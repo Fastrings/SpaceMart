@@ -36,7 +36,6 @@ if __name__ == '__main__':
     parser.add_argument("-b", "--budget", required=True, help="starting budget B of space mart", metavar="B")
 
     args = parser.parse_args()
-    budget = args.budget
 
-    mart = SpaceMart(budget)
+    mart = SpaceMart(args.budget)
     main_loop(mart)
