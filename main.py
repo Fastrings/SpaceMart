@@ -34,7 +34,6 @@ def init(mart):
 
 def main_loop(mart):
     init(mart)
-    inv = get_starting_inventory()
     while True:
         days = mart.get_time_passed() # updating time passed
 
@@ -65,4 +64,6 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     mart = SpaceMart(int(args.budget))
+    inv = get_starting_inventory()
+    mart.init_products(inv)
     main_loop(mart)

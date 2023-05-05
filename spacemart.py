@@ -5,6 +5,7 @@ class SpaceMart():
     def __init__(self, budget):
         self.budget = budget
         self.days = 1
+        self.products = []
     
     def budget_check(self):
         if self.budget <= 0:
@@ -22,3 +23,8 @@ class SpaceMart():
     def pay_taxes(self):
         self.budget -= 30
         print(f"Remaining budget: {self.budget}")
+    
+    def init_products(self, inv):
+        self.products.clear()
+        for item in inv:
+            self.products.append(item)
