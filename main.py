@@ -1,6 +1,5 @@
 from spacemart import SpaceMart
 import argparse, pyinputplus as pyip
-from json_interface import get_starting_inventory
 
 def user_interaction(mart):
     result = pyip.inputMenu(['Continue', 'Give up', 'Fast forward'], "What do you want to do?\n", numbered=True)
@@ -64,6 +63,4 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     mart = SpaceMart(int(args.budget))
-    inv = get_starting_inventory()
-    mart.init_products(inv)
     main_loop(mart)

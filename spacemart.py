@@ -1,3 +1,5 @@
+from json_interface import get_starting_inventory
+
 class SpaceMart():
 
     # class attributes
@@ -6,6 +8,8 @@ class SpaceMart():
         self.budget = budget
         self.days = 1
         self.products = []
+
+        self.init_products(get_starting_inventory())
     
     def budget_check(self):
         if self.budget <= 0:
