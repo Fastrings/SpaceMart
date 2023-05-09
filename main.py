@@ -39,6 +39,9 @@ def main_loop(mart):
         mart.budget_check() # checking if we still have money
 
         if days % 7 == 0: # interact with user every week
+            sales_report = mart.calculate_sales() # calculate next week's sales
+            mart.make_money() # make money according to the current sales report
+            mart.update_report(sales_report) # the sales report is now the one for next week
             print(f"This is day {days}.")
             cont, ff =  user_interaction(mart)
             if not cont:
