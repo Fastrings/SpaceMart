@@ -48,6 +48,19 @@ class SpaceMart():
         
         self.budget += total
 
+    def total_sales(self):
+        total = 0
+        if self.current_report != {}:
+            rep = self.current_report
+            for key, value in rep.items():
+                ref = key
+                sales_amount = value
+                p = self.find_product_by_ref(ref)
+                price = p['price']
+                total += price * sales_amount
+        
+        return total
+
     def update_report(self, report):
         self.current_report = report
 
