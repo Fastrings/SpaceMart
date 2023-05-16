@@ -109,3 +109,14 @@ class SpaceMart():
             p['discount'] = 0
             if p['type'] == t:
                 p['discount'] = random.randint(0, 25)
+    
+    def update_expiry_date(self):
+        for p in self.products:
+            p['remaining_days'] -= 1
+            if p['remaining_days'] == 0:
+                p['discount'] == 50
+
+    def throw_expired(self):
+        for p in self.products:
+            if p['remaining_days'] == -3:
+                self.products.remove(p)

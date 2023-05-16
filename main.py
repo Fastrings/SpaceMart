@@ -35,7 +35,6 @@ def main_loop(mart):
     init(mart)
     while True:
         days = mart.get_time_passed() # updating time passed
-
         mart.budget_check() # checking if we still have money
 
         if days % 7 == 0: # interact with user every week
@@ -62,6 +61,8 @@ def main_loop(mart):
             mart.pay_taxes()
         
         mart.add_time() # go forward 1 day in time
+        mart.update_expiry_date() # update the remaining days before expiry of every product
+        mart.throw_expired() # remove from products all expired ones
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Emulation of an inventory management system.")

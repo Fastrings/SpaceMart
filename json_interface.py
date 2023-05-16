@@ -7,5 +7,6 @@ def get_starting_inventory():
     for product in sam:
         product['quantity'] = 5
         product['discount'] = 0
+        product['remaining_days'] = random.randint(5, 25)
     file.close()
     return sam
