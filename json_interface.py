@@ -6,5 +6,6 @@ def get_starting_inventory():
     sam = random.sample(data, 200)
     for product in sam:
         product['quantity'] = 5
+        product['discount'] = 0
     file.close()
     return sam

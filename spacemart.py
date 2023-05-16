@@ -1,5 +1,7 @@
 from json_interface import get_starting_inventory
 import numpy as np
+from json_loader import TYPES
+import random
 
 class SpaceMart():
 
@@ -43,7 +45,7 @@ class SpaceMart():
                 ref = key
                 sales_amount = value
                 p = self.find_product_by_ref(ref)
-                price = p['price']
+                price = p['price'] - ((p['discount'] * p ['price']) // 100)
                 total += price * sales_amount
         
         self.budget += total
@@ -100,3 +102,10 @@ class SpaceMart():
     def restock(self):
         for p in self.products:
             p['quantity'] = 5
+    
+    def apply_discounts(self):
+        t = random.choice(TYPES)
+        for p in self.products:
+            p['discount'] = 0
+            if p['type'] == t:
+                p['discount'] = random.randint(0, 25)
