@@ -93,3 +93,6 @@ class SpaceMart():
         self.products.clear()
         for item in inv:
             self.products.append(item)
+    
+    def restock(self):
+        self.init_products(get_starting_inventory())

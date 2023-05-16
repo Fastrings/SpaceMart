@@ -51,6 +51,8 @@ def main_loop(mart):
                 if ff != 0:
                     fast_forward(days, ff)
                     continue
+            mart.restock()
+            
         if days % 30 == 0: # pay taxes every month
             txt = "1 month has passed" if days == 30 else f"{int(days / 30)} months have passed"
             print(txt)
