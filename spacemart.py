@@ -113,8 +113,8 @@ class SpaceMart():
     def update_expiry_date(self):
         for p in self.products:
             p['remaining_days'] -= 1
-            if p['remaining_days'] == 0:
-                p['discount'] == 50
+            if p['remaining_days'] <= 0:
+                p['discount'] = 50
 
     def throw_expired(self):
         for p in self.products:
