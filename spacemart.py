@@ -94,5 +94,9 @@ class SpaceMart():
         for item in inv:
             self.products.append(item)
     
-    def restock(self):
+    def update_products(self):
         self.init_products(get_starting_inventory())
+    
+    def restock(self):
+        for p in self.products:
+            p['quantity'] = 5

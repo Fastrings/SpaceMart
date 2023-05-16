@@ -52,11 +52,12 @@ def main_loop(mart):
                     fast_forward(days, ff)
                     continue
             mart.restock()
-            
+
         if days % 30 == 0: # pay taxes every month
             txt = "1 month has passed" if days == 30 else f"{int(days / 30)} months have passed"
             print(txt)
             print("You paid 150000 space dollars in taxes.")
+            mart.update_products()
             mart.pay_taxes()
         
         mart.add_time() # go forward 1 day in time
