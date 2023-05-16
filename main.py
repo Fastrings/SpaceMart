@@ -53,7 +53,7 @@ def main_loop(mart):
         if days % 30 == 0: # pay taxes every month
             txt = "1 month has passed" if days == 30 else f"{int(days / 30)} months have passed"
             print(txt)
-            print("You paid 30 space dollars in taxes.")
+            print("You paid 150000 space dollars in taxes.")
             mart.pay_taxes()
         
         mart.add_time() # go forward 1 day in time

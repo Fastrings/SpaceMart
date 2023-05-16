@@ -27,8 +27,8 @@ class SpaceMart():
         self.days += days
 
     def pay_taxes(self):
-        self.budget -= 100000
-        print(f"Remaining budget: {self.budget}")
+        self.budget -= 150000
+        print(f"Remaining budget: {self.get_budget()}")
 
     def find_product_by_ref(self, ref):
         for p in self.products:
