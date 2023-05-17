@@ -138,3 +138,12 @@ class SpaceMart():
                 msg = "Event: Sales will be increased by " + str(reduction) + "%."
         
         return msg
+
+    def make_sales(self, silent=False):
+        sales_report = self.generate_sales_report() # calculate next week's sales
+        self.current_report = sales_report # the sales report is now the one for next week
+        weekly_sales = self.compute_sales_result() #compute sales from report
+        self.budget += weekly_sales
+        if not silent:
+            print(f"Weekly sales: {weekly_sales}")
+        self.restock()
