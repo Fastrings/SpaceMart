@@ -14,8 +14,6 @@ def user_interaction(mart):
         case 'Fast forward':
             result2 = pyip.inputNum(prompt="How many days in the future do you want to fast forward to?")
             return (True, result2)
-        case _:
-            pass
 
 def fast_forward(current_time, jump):
     mart.days += jump
