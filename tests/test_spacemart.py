@@ -12,6 +12,8 @@ class SpaceTest(unittest.TestCase):
         self.assertDictEqual(self.mart.current_report, {})
         self.assertEqual(self.mart.budget, 100000)
         self.assertEqual(self.mart.days, 1)
+        self.assertEqual(self.mart.bonus_taxes, 0)
+        self.assertEqual(self.mart.sales_reduction, 0)
     
     def test_time_passed(self):
         self.mart.add_time(10)
@@ -81,4 +83,32 @@ class SpaceTest(unittest.TestCase):
             self.assertNotEqual(p['remaining_days'], -3)
             if p['remaining_days'] <= 0:
                 self.assertEqual(p['discount'], 50)
-            
+    
+    def test_pick_event(self):
+        event = self.mart.pick_event()
+        self.assertGreaterEqual(event, 1)
+        self.assertLessEqual(event, 8)
+
+    def test_apply_consequences_budget(self):
+        budget = self.mart.budget
+        self.mart.apply_consequences(1)
+        self.assertLess(self.mart.budget, budget)
+        budget = self.mart.budget
+        self.mart.apply_consequences(5)
+        self.assertGreater(self.mart.budget, budget) 
+
+    def test_apply_consequences_taxes(self):
+        bonus = self.mart.bonus_taxes
+        self.mart.apply_consequences(3)
+        self.assertGreater(self.mart.bonus_taxes, bonus)
+        bonus = self.mart.bonus_taxes
+        self.mart.apply_consequences(7)
+        self.assertLess(self.mart.bonus_taxes, bonus)
+
+    def test_apply_consequences_sales(self):
+        sales = self.mart.sales_reduction
+        self.mart.apply_consequences(4)
+        self.assertGreater(self.mart.sales_reduction, sales)
+        sales = self.mart.sales_reduction
+        self.mart.apply_consequences(8)
+        self.assertLess(self.mart.sales_reduction, sales)          
