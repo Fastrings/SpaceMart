@@ -1,6 +1,8 @@
 from spacemart import SpaceMart
 import argparse, pyinputplus as pyip
 import random
+from json_interface import get_starting_inventory
+
 
 def user_interaction(mart):
     result = pyip.inputMenu(['Continue', 'Give up', 'Fast forward'], "What do you want to do?\n", numbered=True)
@@ -16,7 +18,7 @@ def user_interaction(mart):
             pass
 
 def fast_forward(current_time, jump):
-    mart.add_time(jump)
+    mart.days += jump
     cpt = 0
     for i in range(current_time, current_time + jump):
         if i % 30 == 0:
@@ -24,11 +26,11 @@ def fast_forward(current_time, jump):
 
     mart.budget -= cpt
     print(f"Fast forwarded {jump} days in the future. In the meantime, you paid {cpt} space dollars in taxes.")
-    print(f"Remaining budget: {mart.get_budget()}")
+    print(f"Remaining budget: {mart.budget}")
 
 def init(mart):
     print("This is the beginning of the program.")
-    print(f"Your total budget is: {mart.get_budget()}.")
+    print(f"Your total budget is: {mart.budget}.")
     print("Good luck!")
     print("-------------------------------------")
 
@@ -42,8 +44,10 @@ def print_event(msg):
 def main_loop(mart):
     init(mart)
     while True:
-        days = mart.get_time_passed() # updating time passed
-        mart.budget_check() # checking if we still have money
+        days = mart.days # updating time passed
+
+        if mart.budget <= 0: # checking if we still have money
+            exit("You ran out of money. Better luck next time!")
 
         if random.randint(1, 100) == 42 and days % 2 == 0:
             event_number = mart.pick_event()
@@ -51,12 +55,15 @@ def main_loop(mart):
             print_event(msg)
 
         if days % 7 == 0: # interact with user every week
-            mart.apply_discounts()
-            sales_report = mart.calculate_sales() # calculate next week's sales
-            mart.update_report(sales_report) # the sales report is now the one for next week
             print(f"This is day {days}.")
-            print(f"Weekly sales: {mart.total_sales()}")
-            mart.make_money() # make money according to the current sales report
+
+            mart.apply_discounts()
+            sales_report = mart.generate_sales_report() # calculate next week's sales
+            mart.current_report = sales_report # the sales report is now the one for next week
+            weekly_sales = mart.compute_sales_result()
+            mart.budget += weekly_sales
+            print(f"Weekly sales: {mart.compute_sales_result()}")
+
             cont, ff =  user_interaction(mart)
             if not cont:
                 break
@@ -70,10 +77,10 @@ def main_loop(mart):
             txt = "1 month has passed" if days == 30 else f"{int(days / 30)} months have passed"
             print(txt)
             print("You paid 150000 space dollars in taxes.")
-            mart.update_products()
+            mart.init_products(get_starting_inventory())
             mart.pay_taxes()
         
-        mart.add_time() # go forward 1 day in time
+        mart.days += 1 # go forward 1 day in time
         mart.update_expiry_date() # update the remaining days before expiry of every product
         mart.throw_expired() # remove from products all expired ones
 

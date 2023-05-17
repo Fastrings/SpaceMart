@@ -15,12 +15,8 @@ class SpaceTest(unittest.TestCase):
         self.assertEqual(self.mart.bonus_taxes, 0)
         self.assertEqual(self.mart.sales_reduction, 0)
     
-    def test_time_passed(self):
-        self.mart.add_time(10)
-        self.assertEqual(self.mart.get_time_passed(), 11)
-    
     def test_budget(self):
-        self.assertEqual(self.mart.get_budget(), 100000)
+        self.assertEqual(self.mart.budget, 100000)
 
     def test_taxes(self):
         self.assertEqual(self.mart.budget, 100000)
@@ -36,19 +32,10 @@ class SpaceTest(unittest.TestCase):
         self.assertNotEqual(item2, self.mart.products[100])
         self.assertNotEqual(item3, self.mart.products[150])
 
-    def test_making_money(self):
-        bud = self.mart.get_budget()
-        self.assertEqual(self.mart.total_sales(), 0)
-        report = self.mart.calculate_sales()
-        self.mart.update_report(report)
-        self.assertNotEqual(self.mart.total_sales(), 0)
-        self.mart.make_money()
-        self.assertEqual(self.mart.get_budget(), bud + self.mart.total_sales())
-
     def test_restock(self):
         for p in self.mart.products:
             self.assertEqual(p['quantity'], 5)
-        report = self.mart.calculate_sales()
+        report = self.mart.generate_sales_report()
         count = 0
         for p in self.mart.products:
             count += p['quantity'] != 5
@@ -71,7 +58,7 @@ class SpaceTest(unittest.TestCase):
             self.assertGreaterEqual(p['remaining_days'], 5)
         
         for _ in range(10):
-            self.mart.add_time()
+            self.mart.days += 1
             self.mart.update_expiry_date()
             self.mart.throw_expired()
         

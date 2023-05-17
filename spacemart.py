@@ -14,30 +14,17 @@ class SpaceMart():
         self.sales_reduction = 0
 
         self.init_products(get_starting_inventory())
-    
-    def budget_check(self):
-        if self.budget <= 0:
-            exit("You ran out of money. Better luck next time!")
-
-    def get_time_passed(self):
-        return self.days
-
-    def get_budget(self):
-        return self.budget
-
-    def add_time(self, days=1):
-        self.days += days
 
     def pay_taxes(self):
         self.budget -= 150000 + self.bonus_taxes
-        print(f"Remaining budget: {self.get_budget()}")
+        print(f"Remaining budget: {self.budget}")
 
     def find_product_by_ref(self, ref):
         for p in self.products:
             if p['reference'] == ref:
                 return p
-    
-    def make_money(self):
+
+    def compute_sales_result(self):
         total = 0
         if self.current_report != {}:
             rep = self.current_report
@@ -49,25 +36,9 @@ class SpaceMart():
                 total += price * sales_amount
         
         total = total - ((total * self.sales_reduction) // 100)
-        self.budget += total
-
-    def total_sales(self):
-        total = 0
-        if self.current_report != {}:
-            rep = self.current_report
-            for key, value in rep.items():
-                ref = key
-                sales_amount = value
-                p = self.find_product_by_ref(ref)
-                price = p['price'] - ((p['discount'] * p ['price']) // 100)
-                total += price * sales_amount
-        
         return total
 
-    def update_report(self, report):
-        self.current_report = report
-
-    def calculate_sales(self):
+    def generate_sales_report(self):
         sales_report = {}
         daily_sales = np.random.default_rng().normal(10, 3, 7)
         weekly_sales = sum(daily_sales)
@@ -96,9 +67,6 @@ class SpaceMart():
         self.products.clear()
         for item in inv:
             self.products.append(item)
-    
-    def update_products(self):
-        self.init_products(get_starting_inventory())
     
     def restock(self, free = False):
         for p in self.products:
