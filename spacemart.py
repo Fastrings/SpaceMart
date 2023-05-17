@@ -5,8 +5,6 @@ import random
 
 class SpaceMart():
 
-    # class attributes
-
     def __init__(self, budget):
         self.budget = budget
         self.days = 1
@@ -102,6 +100,8 @@ class SpaceMart():
     def restock(self):
         for p in self.products:
             p['quantity'] = 5
+        
+        self.budget -= 50000
     
     def apply_discounts(self):
         t = random.choice(TYPES)
