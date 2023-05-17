@@ -1,5 +1,6 @@
 from spacemart import SpaceMart
 import argparse, pyinputplus as pyip
+import random
 
 def user_interaction(mart):
     result = pyip.inputMenu(['Continue', 'Give up', 'Fast forward'], "What do you want to do?\n", numbered=True)
@@ -31,11 +32,23 @@ def init(mart):
     print("Good luck!")
     print("-------------------------------------")
 
+def print_event(msg):
+    l = len(msg)
+    border = "-" * (8 + l)
+    print(border)
+    print("|   " + msg + "   |")
+    print(border)
+    
 def main_loop(mart):
     init(mart)
     while True:
         days = mart.get_time_passed() # updating time passed
         mart.budget_check() # checking if we still have money
+
+        if random.randint(1, 100) == 42 and days % 2 == 0:
+            event_number = mart.pick_event()
+            msg = mart.apply_consequences(event_number)
+            print_event(msg)
 
         if days % 7 == 0: # interact with user every week
             mart.apply_discounts()

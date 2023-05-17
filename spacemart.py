@@ -10,6 +10,8 @@ class SpaceMart():
         self.days = 1
         self.products = []
         self.current_report = {}
+        self.bonus_taxes = 0
+        self.sales_reduction = 0
 
         self.init_products(get_starting_inventory())
     
@@ -27,7 +29,7 @@ class SpaceMart():
         self.days += days
 
     def pay_taxes(self):
-        self.budget -= 150000
+        self.budget -= 150000 + self.bonus_taxes
         print(f"Remaining budget: {self.get_budget()}")
 
     def find_product_by_ref(self, ref):
@@ -46,6 +48,7 @@ class SpaceMart():
                 price = p['price'] - ((p['discount'] * p ['price']) // 100)
                 total += price * sales_amount
         
+        total = total - ((total * self.sales_reduction) // 100)
         self.budget += total
 
     def total_sales(self):
@@ -56,7 +59,7 @@ class SpaceMart():
                 ref = key
                 sales_amount = value
                 p = self.find_product_by_ref(ref)
-                price = p['price']
+                price = p['price'] - ((p['discount'] * p ['price']) // 100)
                 total += price * sales_amount
         
         return total
@@ -97,11 +100,12 @@ class SpaceMart():
     def update_products(self):
         self.init_products(get_starting_inventory())
     
-    def restock(self):
+    def restock(self, free = False):
         for p in self.products:
             p['quantity'] = 5
         
-        self.budget -= 50000
+        if not free:
+            self.budget -= 15000
     
     def apply_discounts(self):
         t = random.choice(TYPES)
@@ -120,3 +124,49 @@ class SpaceMart():
         for p in self.products:
             if p['remaining_days'] == -3:
                 self.products.remove(p)
+    
+    def pick_event(self):
+        # 1: Loss of money
+        # 2: Loss of stock
+        # 3: More taxes
+        # 4: Sales hindered
+        # 5: Won the lottery
+        # 6: Free delivery of products
+        # 7: Rent is cheaper
+        # 8: Sales get better
+        return random.randint(1, 8)
+
+    def apply_consequences(self, event):
+        match event:
+            case 1: 
+                loss = random.randint(5000, 10000)
+                self.budget -= loss
+                msg = "Event: You lost " + str(loss) + " space dollars."
+            case 2: 
+                self.restock()
+                msg = "Event: You lost your stock and had to pay to restock all your products."
+            case 3:
+                bonus = random.randint(5000, 10000)
+                self.bonus_taxes += bonus
+                msg = "Event: Taxes increased by " + str(bonus) + " space dollars."
+            case 4:
+                reduction = random.randint(1, 5)
+                self.sales_reduction += reduction
+                msg = "Event: Sales will be reduced by " + str(reduction) + "%."
+            case 5: 
+                win = random.randint(5000, 10000)
+                self.budget += win
+                msg = "Event: You won " + str(win) + " space dollars."
+            case 6: 
+                self.restock(free = True)
+                msg = "Event: You got a free delivery of all your products."
+            case 7:
+                bonus = random.randint(5000, 10000)
+                self.bonus_taxes -= bonus
+                msg = "Event: Taxes decreased by " + str(bonus) + " space dollars."
+            case 8:
+                reduction = random.randint(1, 5)
+                self.sales_reduction -= reduction
+                msg = "Event: Sales will be increased by " + str(reduction) + "%."
+        
+        return msg
