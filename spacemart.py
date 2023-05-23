@@ -5,18 +5,19 @@ import random
 
 class SpaceMart():
 
-    def __init__(self, budget):
+    def __init__(self, budget, start_day=1):
         self.budget = budget
-        self.days = 1
+        self.days = start_day
         self.products = []
         self.current_report = {}
         self.bonus_taxes = 0
         self.sales_reduction = 0
+        self.taxes = 150000
 
         self.init_products(get_starting_inventory())
 
     def pay_taxes(self):
-        self.budget -= 150000 + self.bonus_taxes
+        self.budget -= self.taxes + self.bonus_taxes
         print(f"Remaining budget: {self.budget}")
 
     def find_product_by_ref(self, ref):
@@ -147,3 +148,7 @@ class SpaceMart():
         if not silent:
             print(f"Weekly sales: {weekly_sales}")
         self.restock()
+    
+    def inflation(self):
+        for p in self.products:
+            p['price'] += p['price'] * 0.05

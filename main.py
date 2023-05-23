@@ -59,6 +59,11 @@ def main_loop(mart):
             mart.init_products(get_starting_inventory())
             mart.pay_taxes()
         
+        if days % 365 == 0: # actions every year
+            mart.taxes -= 5000
+            mart.inflation()
+
+        
         mart.days += 1 # go forward 1 day in time
         mart.update_expiry_date() # update the remaining days before expiry of every product
         mart.throw_expired() # remove from products all expired ones

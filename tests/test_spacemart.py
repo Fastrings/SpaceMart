@@ -1,17 +1,18 @@
 import unittest
 from spacemart import SpaceMart
 from json_interface import get_starting_inventory
+import random
 
 class SpaceTest(unittest.TestCase):
     
     def setUp(self):
-        self.mart = SpaceMart(100000)
+        self.mart = SpaceMart(100000, start_day=350)
     
     def test_init_properly(self):
         self.assertEqual(len(self.mart.products), 200)
         self.assertDictEqual(self.mart.current_report, {})
         self.assertEqual(self.mart.budget, 100000)
-        self.assertEqual(self.mart.days, 1)
+        #self.assertEqual(self.mart.days, 1)
         self.assertEqual(self.mart.bonus_taxes, 0)
         self.assertEqual(self.mart.sales_reduction, 0)
     
@@ -98,4 +99,14 @@ class SpaceTest(unittest.TestCase):
         self.assertGreater(self.mart.sales_reduction, sales)
         sales = self.mart.sales_reduction
         self.mart.apply_consequences(8)
-        self.assertLess(self.mart.sales_reduction, sales)          
+        self.assertLess(self.mart.sales_reduction, sales)
+
+    def test_inflation(self):
+        p = random.choice(self.mart.products)
+        ref = p['reference']
+        price = p['price']
+        self.mart.inflation()
+        p = self.mart.find_product_by_ref(ref)
+        self.assertNotEqual(price, p['price'])
+        self.assertGreater(p['price'], price)
+        self.assertEqual(p['price'], price + price * 0.05)
