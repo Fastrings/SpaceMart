@@ -9,7 +9,7 @@ class SpaceMart():
         self.budget = budget
         self.days = start_day
         self.products = []
-        self.current_report = {}
+        self.sales_reports = []
         self.bonus_taxes = 0
         self.sales_reduction = 0
         self.taxes = 150000
@@ -27,8 +27,8 @@ class SpaceMart():
 
     def compute_sales_result(self):
         total = 0
-        if self.current_report != {}:
-            rep = self.current_report
+        rep = self.sales_reports[-1]
+        if rep != {}:
             for key, value in rep.items():
                 ref = key
                 sales_amount = value
@@ -142,7 +142,7 @@ class SpaceMart():
 
     def make_sales(self, silent=False):
         sales_report = self.generate_sales_report() # calculate next week's sales
-        self.current_report = sales_report # the sales report is now the one for next week
+        self.sales_reports.append(sales_report) # add the sales report to the list
         weekly_sales = self.compute_sales_result() #compute sales from report
         self.budget += weekly_sales
         if not silent:

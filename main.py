@@ -62,7 +62,7 @@ def main_loop(mart):
         if days % 365 == 0: # actions every year
             mart.taxes -= 5000
             mart.inflation()
-
+            mart.sales_reports = []
         
         mart.days += 1 # go forward 1 day in time
         mart.update_expiry_date() # update the remaining days before expiry of every product

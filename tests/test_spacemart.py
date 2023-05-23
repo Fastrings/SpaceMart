@@ -6,13 +6,13 @@ import random
 class SpaceTest(unittest.TestCase):
     
     def setUp(self):
-        self.mart = SpaceMart(100000, start_day=350)
+        self.mart = SpaceMart(100000)
     
     def test_init_properly(self):
         self.assertEqual(len(self.mart.products), 200)
-        self.assertDictEqual(self.mart.current_report, {})
+        self.assertListEqual(self.mart.sales_reports, [])
         self.assertEqual(self.mart.budget, 100000)
-        #self.assertEqual(self.mart.days, 1)
+        self.assertEqual(self.mart.days, 1)
         self.assertEqual(self.mart.bonus_taxes, 0)
         self.assertEqual(self.mart.sales_reduction, 0)
     
