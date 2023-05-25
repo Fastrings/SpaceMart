@@ -1,6 +1,6 @@
 from spacemart import SpaceMart
 import argparse, pyinputplus as pyip
-import random
+import random, os, time
 from json_interface import get_starting_inventory
 
 def fast_forward(current_time, jump):
@@ -14,6 +14,7 @@ def fast_forward(current_time, jump):
             mart.make_sales(silent=True)
 
     mart.budget -= cpt
+    os.system('cls' if os.name == 'nt' else 'clear')
     print(f"Fast forwarded {jump} days in the future. In the meantime, you paid {cpt} space dollars in taxes.")
     print(f"Remaining budget: {mart.budget}")   
 
@@ -25,6 +26,7 @@ def print_event(msg):
     print(border)
     
 def main_loop(mart):
+    os.system('cls' if os.name == 'nt' else 'clear')
     while True:
         days = mart.days # updating time passed
         if mart.budget <= 0: # checking if we still have money
@@ -51,9 +53,11 @@ def main_loop(mart):
                     result2 = pyip.inputNum(prompt="How many days in the future do you want to fast forward to?")
                     fast_forward(days, result2)
                     continue
+            
+            os.system('cls' if os.name == 'nt' else 'clear')
 
         if days % 30 == 0: # pay taxes every month
-            txt = "1 month has passed" if days == 30 else f"{int(days / 30)} months have passed"
+            txt = "In total, " + "1 month has passed" if days == 30 else f"{int(days / 30)} months have passed"
             print(txt)
             print("You paid 150000 space dollars in taxes.")
             mart.init_products(get_starting_inventory())
@@ -77,7 +81,8 @@ if __name__ == '__main__':
 
     mart = SpaceMart(int(args.budget))
     print("This is the beginning of the program.")
-    print(f"Your total budget is: {mart.budget}.")
+    print(f"Your starting budget is: {mart.budget}.")
     print("Good luck!")
     print("-------------------------------------")
+    time.sleep(2)
     main_loop(mart)
