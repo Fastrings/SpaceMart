@@ -2,6 +2,7 @@ from spacemart import SpaceMart
 import argparse, pyinputplus as pyip
 import random, os, time
 from json_interface import get_starting_inventory
+from quiz_parser import pick_categories, pick_question
 
 def fast_forward(current_time, jump):
     mart.days += jump
@@ -24,7 +25,21 @@ def print_event(msg):
     print(border)
     print("|   " + msg + "   |")
     print(border)
-    
+
+def quiz(bet_amount):
+    categories = pick_categories()
+    categ = pyip.inputMenu(categories, "Choose a category: \n", numbered=True)
+    question, category, answer, choices = pick_question(categ)
+    a = pyip.inputMenu(choices, question + "\n", lettered=True)
+    if a == answer:
+        mart.budget += bet_amount * 2
+        print(f'Congratulations! You added {bet_amount * 2} space dollars to your budget')
+    else:
+        print(f'Wrong answer! The answer was: {answer}')
+        print(f'You lost your bet of {bet_amount}')
+    time.sleep(2)
+    os.system('cls' if os.name == 'nt' else 'clear')
+
 def main_loop(mart):
     os.system('cls' if os.name == 'nt' else 'clear')
     while True:
@@ -43,17 +58,20 @@ def main_loop(mart):
             mart.apply_discounts()
             mart.make_sales()
 
-            result = pyip.inputMenu(['Continue', 'Give up', 'Fast forward'], "What do you want to do?\n", numbered=True)
+            result = pyip.inputMenu(['Continue', 'Give up', 'Fast forward', 'Quiz Me!'], "What do you want to do?\n", numbered=True)
             match result:
                 case 'Continue':
                     pass
                 case 'Give up':
                     break
                 case 'Fast forward':
-                    result2 = pyip.inputNum(prompt="How many days in the future do you want to fast forward to?")
+                    result2 = pyip.inputNum(prompt="How many days in the future do you want to fast forward to? ")
                     fast_forward(days, result2)
                     continue
-            
+                case 'Quiz Me!':
+                    bet_amount = pyip.inputNum(prompt="How much money do you want to bet? ", min=0, max=mart.budget)
+                    quiz(bet_amount)
+                    continue
             os.system('cls' if os.name == 'nt' else 'clear')
 
         if days % 30 == 0: # pay taxes every month
