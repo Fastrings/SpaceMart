@@ -8,7 +8,7 @@ def fast_forward(current_time, jump):
     cpt = 0
     for i in range(current_time, current_time + jump):
         if i % 30 == 0:
-            cpt += 150000
+            cpt += 75000
         if i % 7 == 0:
             mart.apply_discounts()
             mart.make_sales(silent=True)

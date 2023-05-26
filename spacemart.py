@@ -12,7 +12,7 @@ class SpaceMart():
         self.sales_reports = []
         self.bonus_taxes = 0
         self.sales_reduction = 0
-        self.taxes = 150000
+        self.taxes = 75000
 
         self.init_products(get_starting_inventory())
 
