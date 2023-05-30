@@ -10,7 +10,7 @@ This program is developed in Python using the following libraries :
 - [Json](https://docs.python.org/3/library/json.html) 
 - [Unittest](https://docs.python.org/3/library/unittest.html)
 
-If you wish to try out this program on your own computer, make sure to have Python 3 installed with those libraries.
+If you wish to try out this program on your own computer, make sure to have Python 3 installed with those libraries. Numpy is the only library that you actually need to install, as the other 3 come with any python installation.
 
 ## How to use
 
