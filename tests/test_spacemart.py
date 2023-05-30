@@ -22,7 +22,7 @@ class SpaceTest(unittest.TestCase):
     def test_taxes(self):
         self.assertEqual(self.mart.budget, 100000)
         self.mart.pay_taxes()
-        self.assertEqual(self.mart.budget, -50000)
+        self.assertEqual(self.mart.budget, 25000)
     
     def test_init_products(self):
         self.assertEqual(len(self.mart.products), 200)

@@ -4,8 +4,9 @@ import random, os, time
 from json_interface import get_starting_inventory
 from quiz_parser import pick_categories, pick_question
 
-def fast_forward(current_time, jump):
-    mart.days += jump
+def fast_forward(jump, mart):
+    current_time = mart.days
+    mart.days += jump 
     cpt = 0
     for i in range(current_time, current_time + jump):
         if i % 30 == 0:
@@ -26,7 +27,7 @@ def print_event(msg):
     print("|   " + msg + "   |")
     print(border)
 
-def quiz(bet_amount):
+def quiz(bet_amount, mart):
     categories = pick_categories()
     categ = pyip.inputMenu(categories, "Choose a category: \n", numbered=True)
     question, category, answer, choices = pick_question(categ)
@@ -37,6 +38,8 @@ def quiz(bet_amount):
     else:
         print(f'Wrong answer! The answer was: {answer}')
         print(f'You lost your bet of {bet_amount}')
+
+    mart.days += 1    
     time.sleep(2)
     os.system('cls' if os.name == 'nt' else 'clear')
 
@@ -66,11 +69,11 @@ def main_loop(mart):
                     break
                 case 'Fast forward':
                     result2 = pyip.inputNum(prompt="How many days in the future do you want to fast forward to? ")
-                    fast_forward(days, result2)
+                    fast_forward(result2, mart)
                     continue
                 case 'Quiz Me!':
                     bet_amount = pyip.inputNum(prompt="How much money do you want to bet? ", min=0, max=mart.budget)
-                    quiz(bet_amount)
+                    quiz(bet_amount, mart)
                     continue
             os.system('cls' if os.name == 'nt' else 'clear')
 
