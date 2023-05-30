@@ -40,3 +40,7 @@ If you want to run the test suite, go to the root of the project and enter the f
 ```bash
 $ python -m unittest discover -s tests
 ```
+
+## Credits
+
+All of the quiz questions are from this github repository : [OpenTriviaQA](https://github.com/uberspot/OpenTriviaQA)
