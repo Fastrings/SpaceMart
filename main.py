@@ -73,6 +73,7 @@ def main_loop(mart):
                     continue
                 case 'Quiz Me!':
                     bet_amount = pyip.inputNum(prompt="How much money do you want to bet? ", min=0, max=mart.budget)
+                    mart.budget -= bet_amount
                     quiz(bet_amount, mart)
                     continue
             os.system('cls' if os.name == 'nt' else 'clear')
