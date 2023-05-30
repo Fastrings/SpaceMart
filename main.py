@@ -1,8 +1,8 @@
-from spacemart import SpaceMart
+from src.spacemart import SpaceMart
 import argparse, pyinputplus as pyip
 import random, os, time
-from json_interface import get_starting_inventory
-from quiz_parser import pick_categories, pick_question
+from src.json_interface import get_starting_inventory
+from src.quiz_parser import pick_categories, pick_question
 
 def fast_forward(jump, mart):
     current_time = mart.days

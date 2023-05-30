@@ -1,6 +1,6 @@
 import unittest
-from spacemart import SpaceMart
-from json_interface import get_starting_inventory
+from src.spacemart import SpaceMart
+from src.json_interface import get_starting_inventory
 import random
 
 class SpaceTest(unittest.TestCase):

@@ -1,7 +1,7 @@
 import unittest, random
 from main import fast_forward
-from quiz_parser import pick_categories, pick_question, CATEGORIES
-from spacemart import SpaceMart
+from src.quiz_parser import pick_categories, pick_question, CATEGORIES
+from src.spacemart import SpaceMart
 
 class TestFeatures(unittest.TestCase):
 

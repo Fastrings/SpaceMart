@@ -1,6 +1,6 @@
-from json_interface import get_starting_inventory
+from src.json_interface import get_starting_inventory
 import numpy as np
-from json_loader import TYPES
+from src.json_loader import TYPES
 import random
 
 class SpaceMart():
