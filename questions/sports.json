@@ -1,6 +1,6 @@
 [
     {
-        "question": "What science did Aristotle define as âthe knowledge of immaterial beingâ?",
+        "question": "What science did Aristotle define as âthe knowledge of immaterial being'?",
         "category": "sports",
         "answer": "Metaphysics",
         "choices": [
@@ -980,7 +980,7 @@
         ]
     },
     {
-        "question": "The athletic teams of St. Johnâs University were called the Redmen in the 1920s.",
+        "question": "The athletic teams of St. John's University were called the Redmen in the 1920s.",
         "category": "sports",
         "answer": "True",
         "choices": [
@@ -2213,12 +2213,12 @@
     {
         "question": "This advertising slogan of Nike triggered harsh criticism during the 1996 Olympic Games in Atlanta, because it was in contradiction with the Olympic principles.",
         "category": "sports",
-        "answer": "âYou donât win silver â you lose goldâ.",
+        "answer": "âYou don't win silver -> you lose gold'.",
         "choices": [
-            "âExceed. Why compromise?â.",
-            "âNobody is perfect. My name is nobodyâ.",
-            "âYou donât win silver â you lose goldâ.",
-            "âCommon sense. Uncommon resultsâ"
+            "âExceed. Why compromise?'.",
+            "âNobody is perfect. My name is nobody'.",
+            "âYou don't win silver -> you lose gold'.",
+            "âCommon sense. Uncommon results'"
         ]
     },
     {
@@ -3159,7 +3159,7 @@
         ]
     },
     {
-        "question": "The San Francisco 49ers defeated the Denver Broncos 55â10 in Super Bowl XXIV.",
+        "question": "The San Francisco 49ers defeated the Denver Broncos 55->10 in Super Bowl XXIV.",
         "category": "sports",
         "answer": "True",
         "choices": [
@@ -10842,7 +10842,7 @@
         ]
     },
     {
-        "question": "What was Ted Williamsâ number on the Boston Red Sox?",
+        "question": "What was Ted Williams' number on the Boston Red Sox?",
         "category": "sports",
         "answer": "9",
         "choices": [
@@ -11113,7 +11113,7 @@
         ]
     },
     {
-        "question": "In dogsled racing, a timed competition of teams consisting of a number of sleddogs and a dog driver, what is the name of the short neckline snapped to each dogâs collar?",
+        "question": "In dogsled racing, a timed competition of teams consisting of a number of sleddogs and a dog driver, what is the name of the short neckline snapped to each dog's collar?",
         "category": "sports",
         "answer": "neckline",
         "choices": [
@@ -14594,7 +14594,7 @@
         ]
     },
     {
-        "question": "Which colleges have been among Southern California Trojansâ bitter rivals?",
+        "question": "Which colleges have been among Southern California Trojans' bitter rivals?",
         "category": "sports",
         "answer": "UCLA and Notre Dame",
         "choices": [
@@ -16742,7 +16742,7 @@
         ]
     },
     {
-        "question": "Which Milanâs defender won six scudetti (Serie A league titles) and three European Cups and his #6 jersey was retired by the club?",
+        "question": "Which Milan's defender won six scudetti (Serie A league titles) and three European Cups and his #6 jersey was retired by the club?",
         "category": "sports",
         "answer": "Franco Baresi",
         "choices": [
@@ -16753,7 +16753,7 @@
         ]
     },
     {
-        "question": "Which Brazilian soccer player was part of Barcelonaâs 'Dream Team' (1993-1994 season) and scored 30 goals in 33 matches?",
+        "question": "Which Brazilian soccer player was part of Barcelona's 'Dream Team' (1993-1994 season) and scored 30 goals in 33 matches?",
         "category": "sports",
         "answer": "Romario",
         "choices": [
@@ -18017,7 +18017,7 @@
         ]
     },
     {
-        "question": "This great NBA guard played from 1958â1967 for the Boston Celtics. For many years he was the best defensive guard in the NBA.",
+        "question": "This great NBA guard played from 1958->1967 for the Boston Celtics. For many years he was the best defensive guard in the NBA.",
         "category": "sports",
         "answer": "K.C. Jones",
         "choices": [
@@ -18610,7 +18610,7 @@
         ]
     },
     {
-        "question": "This was basketball player Kareem Abdul-Jabbarâs name at birth.",
+        "question": "This was basketball player Kareem Abdul-Jabbar's name at birth.",
         "category": "sports",
         "answer": "Ferdinand Lewis Alcondor, Jr.",
         "choices": [
@@ -22213,7 +22213,7 @@
         ]
     },
     {
-        "question": "In 1953 Kentucky finished 25â0 but didnt go to the NCAA Mens Division I Basketball Tournament because they didnt accept the invitation.",
+        "question": "In 1953 Kentucky finished 25->0 but didnt go to the NCAA Mens Division I Basketball Tournament because they didnt accept the invitation.",
         "category": "sports",
         "answer": "True",
         "choices": [
@@ -23185,7 +23185,7 @@
         ]
     },
     {
-        "question": "What bull was commonly referred to as 'The Worldâs Most Dangerous Bull'?",
+        "question": "What bull was commonly referred to as 'The World's Most Dangerous Bull'?",
         "category": "sports",
         "answer": "Bodacious",
         "choices": [
@@ -24236,7 +24236,7 @@
         ]
     },
     {
-        "question": "This player, who joined the Minnesota Wild in the 2001â2002 NHL season, is nicknamed Bruno.",
+        "question": "This player, who joined the Minnesota Wild in the 2001->2002 NHL season, is nicknamed Bruno.",
         "category": "sports",
         "answer": "Andrew Brunette",
         "choices": [
@@ -24247,7 +24247,7 @@
         ]
     },
     {
-        "question": "Blake Wheeler is an ice hockey player who played for the North Dakota Fighting Souix in 2005â06.",
+        "question": "Blake Wheeler is an ice hockey player who played for the North Dakota Fighting Souix in 2005->06.",
         "category": "sports",
         "answer": "False",
         "choices": [
@@ -24309,7 +24309,7 @@
         ]
     },
     {
-        "question": "In the 2006â07 Ashes series, which batsman took the single winning run as Australia dashed to a 5-0 whitewash against England for the first time in 86 years?",
+        "question": "In the 2006->07 Ashes series, which batsman took the single winning run as Australia dashed to a 5-0 whitewash against England for the first time in 86 years?",
         "category": "sports",
         "answer": "Mathew Hayden",
         "choices": [
@@ -24342,7 +24342,7 @@
         ]
     },
     {
-        "question": "Which English batsman took six catches in the first innings of the fourth test of the 2006â07 cricket series, becoming only the third player in Test history to do so?",
+        "question": "Which English batsman took six catches in the first innings of the fourth test of the 2006->07 cricket series, becoming only the third player in Test history to do so?",
         "category": "sports",
         "answer": "Chris Read",
         "choices": [
@@ -24353,7 +24353,7 @@
         ]
     },
     {
-        "question": "By scoring 206 runs in the first innings of the second test of the 2006â07 Ashes series, he became only the third Englishman to score a double-century in Australia. Can you name him?",
+        "question": "By scoring 206 runs in the first innings of the second test of the 2006->07 Ashes series, he became only the third Englishman to score a double-century in Australia. Can you name him?",
         "category": "sports",
         "answer": "Paul Collingwood",
         "choices": [
@@ -24364,7 +24364,7 @@
         ]
     },
     {
-        "question": "In the third Ashes test, Adam Gilchristâs century in the second innings became the second fastest century in any test match and the fastest in any Ashes test. How many balls did his century score off?",
+        "question": "In the third Ashes test, Adam Gilchrist's century in the second innings became the second fastest century in any test match and the fastest in any Ashes test. How many balls did his century score off?",
         "category": "sports",
         "answer": "57",
         "choices": [
@@ -24375,7 +24375,7 @@
         ]
     },
     {
-        "question": "The 2006â07 Ashes series was notable for the retirement of several Australian players. Additionally, the Australian coach also announced prior to the Ashes series that the Ashes 2006-07 was his last series of test matches as coach. What was the name of the Australian coach?",
+        "question": "The 2006->07 Ashes series was notable for the retirement of several Australian players. Additionally, the Australian coach also announced prior to the Ashes series that the Ashes 2006-07 was his last series of test matches as coach. What was the name of the Australian coach?",
         "category": "sports",
         "answer": "John Buchanan",
         "choices": [
@@ -26833,7 +26833,7 @@
         ]
     },
     {
-        "question": "What expansion team finished with the NBA worst win/loss record during their first season in 1995â96?",
+        "question": "What expansion team finished with the NBA worst win/loss record during their first season in 1995->96?",
         "category": "sports",
         "answer": "Vancouver Grizzlies",
         "choices": [
@@ -27132,7 +27132,7 @@
         ]
     },
     {
-        "question": "This former NFL player, nicknamed Mad Stork, stood 67 and weighed 220 lbs. He began his playing career with the Baltimore Colts in 1969 â 1970.",
+        "question": "This former NFL player, nicknamed Mad Stork, stood 67 and weighed 220 lbs. He began his playing career with the Baltimore Colts in 1969 -> 1970.",
         "category": "sports",
         "answer": "Ted Hendricks",
         "choices": [
@@ -29604,7 +29604,7 @@
         ]
     },
     {
-        "question": "Of all the great playersâ numbers retired by the Montreal Canadiens, one number has actually been retired more than once. Which number is it?",
+        "question": "Of all the great players' numbers retired by the Montreal Canadiens, one number has actually been retired more than once. Which number is it?",
         "category": "sports",
         "answer": "12",
         "choices": [

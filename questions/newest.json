@@ -410,7 +410,7 @@
         ]
     },
     {
-        "question": "Magicianâs assistants are _______________.",
+        "question": "Magician's assistants are _______________.",
         "category": "newest",
         "answer": "highly sawed after",
         "choices": [
@@ -487,7 +487,7 @@
         ]
     },
     {
-        "question": "If I tell you Iâm afraid of apple orchards, will you tell me to ______________?",
+        "question": "If I tell you I'm afraid of apple orchards, will you tell me to ______________?",
         "category": "newest",
         "answer": "grow a pear",
         "choices": [
@@ -641,7 +641,7 @@
         ]
     },
     {
-        "question": "If the Taiwanese director doesnât win an Oscar, hell ________________.",
+        "question": "If the Taiwanese director doesn't win an Oscar, hell ________________.",
         "category": "newest",
         "answer": "be one Ang Lee fellow",
         "choices": [
@@ -797,11 +797,11 @@
     {
         "question": "What is NOT true about the 2nd Academy Awards?",
         "category": "newest",
-        "answer": "Elliot Clawson was nominated for Best Writing of 3 pictures â The Cop,The Leatherneck, Sal of Singapore.",
+        "answer": "Elliot Clawson was nominated for Best Writing of 3 pictures -> The Cop,The Leatherneck, Sal of Singapore.",
         "choices": [
             "The number of categories was reduced from twelve to seven.",
             "It was the only occasion where there were no official nominees.",
-            "Elliot Clawson was nominated for Best Writing of 3 pictures â The Cop,The Leatherneck, Sal of Singapore.",
+            "Elliot Clawson was nominated for Best Writing of 3 pictures -> The Cop,The Leatherneck, Sal of Singapore.",
             "It was the first ceremony for which the winners were not announced in advance."
         ]
     },
@@ -1004,7 +1004,7 @@
         ]
     },
     {
-        "question": "Iâm Drunk and Youâre a Prostitute is the Japanese title of this movie.",
+        "question": "I'm Drunk and You're a Prostitute is the Japanese title of this movie.",
         "category": "newest",
         "answer": "Leaving Las Vegas",
         "choices": [
@@ -1015,7 +1015,7 @@
         ]
     },
     {
-        "question": "In the Philippines, they pull no punches with the title Because Sheâs Ugly. What is the original title of the movie?",
+        "question": "In the Philippines, they pull no punches with the title Because She's Ugly. What is the original title of the movie?",
         "category": "newest",
         "answer": "Never Been Kissed",
         "choices": [
@@ -1094,11 +1094,11 @@
     {
         "question": "The Sunny Classroom is the Japanese title of this American movie.",
         "category": "newest",
-        "answer": "Mr. Hollandâs Opus",
+        "answer": "Mr. Holland's Opus",
         "choices": [
             "Music of the Heart",
             "Nowhere Boy",
-            "Mr. Hollandâs Opus",
+            "Mr. Holland's Opus",
             "Music Within"
         ]
     },
@@ -1191,7 +1191,7 @@
         ]
     },
     {
-        "question": "Whatâs a real estate lawyerâs least favourite song?",
+        "question": "What's a real estate lawyer's least favourite song?",
         "category": "newest",
         "answer": "Lien On Me",
         "choices": [
@@ -1356,7 +1356,7 @@
         ]
     },
     {
-        "question": "This movie title is translated into German as Floppy Coppers Donât Bite or Yellow Coppers Donât Bite.",
+        "question": "This movie title is translated into German as Floppy Coppers Don't Bite or Yellow Coppers Don't Bite.",
         "category": "newest",
         "answer": "Dragnet",
         "choices": [
@@ -1389,7 +1389,7 @@
         ]
     },
     {
-        "question": "I Think Iâm Kicked by a Horse is the German title of this movie.",
+        "question": "I Think I'm Kicked by a Horse is the German title of this movie.",
         "category": "newest",
         "answer": "Animal House",
         "choices": [
@@ -1444,7 +1444,7 @@
         ]
     },
     {
-        "question": "Final Call â When He Hangs Up She Has to Die is the German title of this movie.",
+        "question": "Final Call -> When He Hangs Up She Has to Die is the German title of this movie.",
         "category": "newest",
         "answer": "Cellular",
         "choices": [
@@ -1455,7 +1455,7 @@
         ]
     },
     {
-        "question": "Good Vibrations â Sex From Another World is the German title of this movie.",
+        "question": "Good Vibrations -> Sex From Another World is the German title of this movie.",
         "category": "newest",
         "answer": "What Planet Are You From?",
         "choices": [
@@ -1466,7 +1466,7 @@
         ]
     },
     {
-        "question": "In Germany this movie is titled Cuckoo while in Japan it is called 17-Year Old Girlâs Medical Chart.",
+        "question": "In Germany this movie is titled Cuckoo while in Japan it is called 17-Year Old Girl's Medical Chart.",
         "category": "newest",
         "answer": "Girl, Interrupted",
         "choices": [
@@ -1827,7 +1827,7 @@
         ]
     },
     {
-        "question": "In China this movie was called Heâs A Ghost!and in Hong Kong or Macao its called Ghost Eyes.",
+        "question": "In China this movie was called He's A Ghost!and in Hong Kong or Macao its called Ghost Eyes.",
         "category": "newest",
         "answer": "The Sixth Sense",
         "choices": [
@@ -2553,7 +2553,7 @@
         ]
     },
     {
-        "question": "Cowboys donât roll joints. (Whats the next sentence?)",
+        "question": "Cowboys don't roll joints. (Whats the next sentence?)",
         "category": "newest",
         "answer": "They tumble weed.",
         "choices": [
@@ -2984,10 +2984,10 @@
     {
         "question": "What movie was released in Japan under the title Sunny Classroom?",
         "category": "newest",
-        "answer": "Mr Hollandâs Opus",
+        "answer": "Mr Holland's Opus",
         "choices": [
             "Music of the Heart",
-            "Mr Hollandâs Opus",
+            "Mr Holland's Opus",
             "Larry Crowne",
             "The Great Debaters"
         ]
@@ -3823,7 +3823,7 @@
         "answer": "Maytime",
         "choices": [
             "Rosalie",
-            "Annabelleâs Affairs",
+            "Annabelle's Affairs",
             "One Hour With You",
             "Maytime"
         ]
@@ -3834,7 +3834,7 @@
         "answer": "Girl of the Golden West",
         "choices": [
             "Balalaika",
-            "Donât Bet on Women",
+            "Don't Bet on Women",
             "Girl of the Golden West",
             "The Lottery Bride"
         ]
@@ -3844,7 +3844,7 @@
         "category": "newest",
         "answer": "Sweethearts",
         "choices": [
-            "Letâs Go Native",
+            "Let's Go Native",
             "Sweethearts",
             "The Vagabond King",
             "Cairo"
@@ -4700,7 +4700,7 @@
         "category": "newest",
         "answer": "Sinead OConnor",
         "choices": [
-            "Dolores OâRiordan",
+            "Dolores O'Riordan",
             "Gemma Hayes",
             "Sinead OConnor",
             "Enya"
@@ -4788,7 +4788,7 @@
         "category": "newest",
         "answer": "the American Civil War",
         "choices": [
-            "the MexicanâAmerican War",
+            "the Mexican->American War",
             "the Vietnam War",
             "the American Civil War",
             "the War of Independence"
@@ -4927,7 +4927,7 @@
         ]
     },
     {
-        "question": "This author, who won the Nobel Prize for Literature and the Pulitzer Prize for his novel The Reivers, dropped out of school at age 15 to work in his grandfatherâs bank.",
+        "question": "This author, who won the Nobel Prize for Literature and the Pulitzer Prize for his novel The Reivers, dropped out of school at age 15 to work in his grandfather's bank.",
         "category": "newest",
         "answer": "William Faulkner",
         "choices": [
@@ -6073,7 +6073,7 @@
         "choices": [
             "Vietnam War",
             "American Civil War",
-            "MexicanâAmerican War",
+            "Mexican->American War",
             "American Revolutionary War"
         ]
     },
@@ -10965,7 +10965,7 @@
         ]
     },
     {
-        "question": "What popular author made this statement about religion: Man is a Religious Animal. He is the only Religious Animal. He is the only animal that has the True Religionâseveral of them. He is the only animal that loves his neighbor as himself and cuts his throat if his theology isnât straight.?",
+        "question": "What popular author made this statement about religion: Man is a Religious Animal. He is the only Religious Animal. He is the only animal that has the True Religionâseveral of them. He is the only animal that loves his neighbor as himself and cuts his throat if his theology isn't straight.?",
         "category": "newest",
         "answer": "Mark Twain",
         "choices": [
@@ -11069,7 +11069,7 @@
         ]
     },
     {
-        "question": "Known as Old Rough and Ready, he was elected president of the US partly because he gained fame by victories over the Mexicans in northern Mexico during the MexicanâAmerican War.",
+        "question": "Known as Old Rough and Ready, he was elected president of the US partly because he gained fame by victories over the Mexicans in northern Mexico during the Mexican->American War.",
         "category": "newest",
         "answer": "Zachary Taylor",
         "choices": [
@@ -11124,7 +11124,7 @@
         ]
     },
     {
-        "question": "The capture of this city in the MexicanâAmerican War was the final American victory that caused the Mexicans to surrender.",
+        "question": "The capture of this city in the Mexican->American War was the final American victory that caused the Mexicans to surrender.",
         "category": "newest",
         "answer": "Mexico City",
         "choices": [
@@ -11609,7 +11609,7 @@
             "Anna Friel",
             "Kate Winslet",
             "Elizabeth Hurley",
-            "Catherine Zeta â Jones"
+            "Catherine Zeta -> Jones"
         ]
     },
     {
@@ -11642,7 +11642,7 @@
         ]
     },
     {
-        "question": "What year did RenÃ©e Zellweger receive an Academy Award nomination for Bridget Jonesâs Diary?",
+        "question": "What year did RenÃ©e Zellweger receive an Academy Award nomination for Bridget Jones's Diary?",
         "category": "newest",
         "answer": "2001",
         "choices": [
@@ -12716,7 +12716,7 @@
         ]
     },
     {
-        "question": "Saint Clotilde (475â545) was married the Merovingian Clovis, King of the Franks.",
+        "question": "Saint Clotilde (475->545) was married the Merovingian Clovis, King of the Franks.",
         "category": "newest",
         "answer": "True",
         "choices": [
@@ -12729,9 +12729,9 @@
         "category": "newest",
         "answer": "All of these",
         "choices": [
-            "King of all the Franks (629â634)",
-            "King of Neustria and Burgundy (629â639)",
-            "King of Austrasia (623â634)",
+            "King of all the Franks (629->634)",
+            "King of Neustria and Burgundy (629->639)",
+            "King of Austrasia (623->634)",
             "All of these"
         ]
     },
@@ -13672,7 +13672,7 @@
         ]
     },
     {
-        "question": "What classic musical comedy, directed by Howard Hawks, features Marilyn Monroes signature rendition of the song 'Diamonds Are a Girlâs Best Friend'?",
+        "question": "What classic musical comedy, directed by Howard Hawks, features Marilyn Monroes signature rendition of the song 'Diamonds Are a Girl's Best Friend'?",
         "category": "newest",
         "answer": "Gentlemen Prefer Blondes",
         "choices": [
@@ -14531,7 +14531,7 @@
         ]
     },
     {
-        "question": "The name Cleopatra is of Greek origin and means Fatherâs glory'.",
+        "question": "The name Cleopatra is of Greek origin and means Father's glory'.",
         "category": "newest",
         "answer": "True",
         "choices": [
@@ -16746,7 +16746,7 @@
         ]
     },
     {
-        "question": "This captain during the American Revolutionary War is widely considered to be Americaâs first spy. Before being hanged he said 'I only regret that I have but one life to lose for my country'.",
+        "question": "This captain during the American Revolutionary War is widely considered to be America's first spy. Before being hanged he said 'I only regret that I have but one life to lose for my country'.",
         "category": "newest",
         "answer": "Nathan Hale",
         "choices": [
@@ -18217,7 +18217,7 @@
         ]
     },
     {
-        "question": "Which of these is an eight-spoked cross symbolizing the eight day interval between Christâs entry into Jerusalem and his resurrection?",
+        "question": "Which of these is an eight-spoked cross symbolizing the eight day interval between Christ's entry into Jerusalem and his resurrection?",
         "category": "newest",
         "answer": "The Baptismal Cross",
         "choices": [
@@ -18234,8 +18234,8 @@
         "choices": [
             "Cai - wealth, money",
             "Fu - Blessing, Good Fortune, Good Luck",
-            "Lu â Prosperity",
-            "Shou â Longevity"
+            "Lu -> Prosperity",
+            "Shou -> Longevity"
         ]
     },
     {
@@ -19114,7 +19114,7 @@
         ]
     },
     {
-        "question": "By 1897â98 many Americans were influenced in favor of war with Spain because of stories in some US newspapers about atrocities and misdeeds of the Spanish, which were usually exaggerated or made up. Such newspapers were know at the time as which of the following?",
+        "question": "By 1897->98 many Americans were influenced in favor of war with Spain because of stories in some US newspapers about atrocities and misdeeds of the Spanish, which were usually exaggerated or made up. Such newspapers were know at the time as which of the following?",
         "category": "newest",
         "answer": "yellow press",
         "choices": [
@@ -19355,7 +19355,7 @@
         ]
     },
     {
-        "question": "13th-century Italians Francesca da Rimini and Paolo Malatestas romance was the inspiration of the famous statue by Auguste Rodin â the Kiss.",
+        "question": "13th-century Italians Francesca da Rimini and Paolo Malatestas romance was the inspiration of the famous statue by Auguste Rodin -> the Kiss.",
         "category": "newest",
         "answer": "True",
         "choices": [
@@ -20724,7 +20724,7 @@
         ]
     },
     {
-        "question": "Where is the Jane Austenâs House Museum located?",
+        "question": "Where is the Jane Austen's House Museum located?",
         "category": "newest",
         "answer": "Chawton",
         "choices": [
@@ -21056,16 +21056,16 @@
     {
         "question": "Which of these was completed after Michelangelos death?",
         "category": "newest",
-        "answer": "The dome of Saint Peterâs Basillica",
+        "answer": "The dome of Saint Peter's Basillica",
         "choices": [
             "the Statue of David",
             "PietÃ ",
             "The ceiling of the Sistine Chapel",
-            "The dome of Saint Peterâs Basillica"
+            "The dome of Saint Peter's Basillica"
         ]
     },
     {
-        "question": "Which of Leonardo Da Vinciâs works was a key element leading to the Holy Grail in the novel The Da Vinci Code?",
+        "question": "Which of Leonardo Da Vinci's works was a key element leading to the Holy Grail in the novel The Da Vinci Code?",
         "category": "newest",
         "answer": "The Last Supper",
         "choices": [
@@ -21622,7 +21622,7 @@
         "choices": [
             "None of these",
             "The Lost Tribes",
-            "The Childrenâs Crusade",
+            "The Children's Crusade",
             "The band of Robin Hood"
         ]
     },
@@ -21633,7 +21633,7 @@
         "choices": [
             "a Jew who taunted Jesus on the way to the Crucifixion",
             "All of these",
-            "the doorman at Pontius Pilateâs estate",
+            "the doorman at Pontius Pilate's estate",
             "a tradesman"
         ]
     },
@@ -21662,11 +21662,11 @@
     {
         "question": "What name is given to a variety of fictional and factual events of 1212 which are related to the conversion of Muslims in the Holy Land to Christianity?",
         "category": "newest",
-        "answer": "The Childrenâs Crusade",
+        "answer": "The Children's Crusade",
         "choices": [
             "The Crusade of Nuns",
             "All of these",
-            "The Childrenâs Crusade",
+            "The Children's Crusade",
             "The Crusade of Templars"
         ]
     },
@@ -21773,7 +21773,7 @@
         "answer": "Casino",
         "choices": [
             "Casino",
-            "Everybodyâs Fine",
+            "Everybody's Fine",
             "Men of Honor",
             "What Just Happened"
         ]
@@ -22008,7 +22008,7 @@
         "choices": [
             "Nosferatu",
             "Interview with the Vampire",
-            "Salemâs Lot",
+            "Salem's Lot",
             "Buffy the Vampire Slayer"
         ]
     },
@@ -22050,7 +22050,7 @@
         "choices": [
             "Blade I",
             "Interview with the Vampire",
-            "Bram Stokerâs Dracula",
+            "Bram Stoker's Dracula",
             "30 Days of Night"
         ]
     },
@@ -22632,10 +22632,10 @@
     {
         "question": "What type of self-contained breathing apparatus is used in fire service?",
         "category": "newest",
-        "answer": "Open â Closed circuit",
+        "answer": "Open -> Closed circuit",
         "choices": [
             "None of these",
-            "Open â Closed circuit",
+            "Open -> Closed circuit",
             "Synchronized circuit",
             "Regulated circuit"
         ]
@@ -22725,7 +22725,7 @@
         ]
     },
     {
-        "question": "What device converts a vehicleâs 12 or 24 volt DC current into 110 or 220 volt AC current?",
+        "question": "What device converts a vehicle's 12 or 24 volt DC current into 110 or 220 volt AC current?",
         "category": "newest",
         "answer": "Inverter",
         "choices": [
@@ -27342,7 +27342,7 @@
         ]
     },
     {
-        "question": "From 1971â1998 David Livingstones image was portrayed on Â£10 notes.",
+        "question": "From 1971->1998 David Livingstones image was portrayed on Â£10 notes.",
         "category": "newest",
         "answer": "True",
         "choices": [
@@ -28752,7 +28752,7 @@
         ]
     },
     {
-        "question": "When an American soldier dies in combat, another soldier must deliver the news to the fallen soldiers family. In this 2009 movie, Sergeant Will Montgomery finds he has feelings for the woman to whom he has delivered news of her husbandâs death.",
+        "question": "When an American soldier dies in combat, another soldier must deliver the news to the fallen soldiers family. In this 2009 movie, Sergeant Will Montgomery finds he has feelings for the woman to whom he has delivered news of her husband's death.",
         "category": "newest",
         "answer": "The Messenger",
         "choices": [
@@ -29340,7 +29340,7 @@
         ]
     },
     {
-        "question": "Which member of Adolf Hitlerâs family was accustomed to whipping him severely as a punishment?",
+        "question": "Which member of Adolf Hitler's family was accustomed to whipping him severely as a punishment?",
         "category": "newest",
         "answer": "His father",
         "choices": [
@@ -29395,7 +29395,7 @@
         ]
     },
     {
-        "question": "Which of these is true about Adolf Hitlerâs dietary habits?",
+        "question": "Which of these is true about Adolf Hitler's dietary habits?",
         "category": "newest",
         "answer": "He was a vegetarian.",
         "choices": [
@@ -31584,7 +31584,7 @@
         ]
     },
     {
-        "question": "Corey Haim received a nomination for an Exceptional Performance by a Young Actor Starring in a Feature Film â Comedy or Drama at the Young Artist Awards for his role in what 1986 movie?",
+        "question": "Corey Haim received a nomination for an Exceptional Performance by a Young Actor Starring in a Feature Film -> Comedy or Drama at the Young Artist Awards for his role in what 1986 movie?",
         "category": "newest",
         "answer": "Lucas",
         "choices": [

@@ -2310,7 +2310,7 @@
       ]
     },
     {
-      "question": "Approximately what amount of meat does an adult male lionâs diet require per day?",
+      "question": "Approximately what amount of meat does an adult male lion's diet require per day?",
       "category": "animals",
       "answer": "15 lbs. (6.8 kg)",
       "choices": [
@@ -2450,7 +2450,7 @@
       ]
     },
     {
-      "question": "Polar bears are among penguinsâ most dangerous natural enemies.",
+      "question": "Polar bears are among penguins' most dangerous natural enemies.",
       "category": "animals",
       "answer": "False",
       "choices": [
@@ -2510,7 +2510,7 @@
       ]
     },
     {
-      "question": "According to statistics from the past 3 decades of the 20th century, there is a significant drop in polar bearsâ size.",
+      "question": "According to statistics from the past 3 decades of the 20th century, there is a significant drop in polar bears' size.",
       "category": "animals",
       "answer": "True",
       "choices": [
@@ -3838,7 +3838,7 @@
       ]
     },
     {
-      "question": "A flamingoâs feathers can change color depending on its diet.",
+      "question": "A flamingo's feathers can change color depending on its diet.",
       "category": "animals",
       "answer": "True",
       "choices": [
@@ -4111,7 +4111,7 @@
       ]
     },
     {
-      "question": "Despite sharksâ bad reputation thanks to movies out of 300 species of sharks only this much are known to have attacked and killed a man.",
+      "question": "Despite sharks' bad reputation thanks to movies out of 300 species of sharks only this much are known to have attacked and killed a man.",
       "category": "animals",
       "answer": "4",
       "choices": [
@@ -4133,7 +4133,7 @@
       ]
     },
     {
-      "question": "Weâve seen these animals as friendly and approachable but the truth is that theyâre unpredictable. What is the average number of fatalities a year elephants cause?",
+      "question": "We've seen these animals as friendly and approachable but the truth is that they're unpredictable. What is the average number of fatalities a year elephants cause?",
       "category": "animals",
       "answer": "300-500",
       "choices": [
@@ -4151,7 +4151,7 @@
         "Standing between the hippopotamus and its calf",
         "All of these",
         "Surprising the hippopotamus",
-        "Blocking the hippopotamusâ way"
+        "Blocking the hippopotamus' way"
       ]
     },
     {
@@ -4166,7 +4166,7 @@
       ]
     },
     {
-      "question": "If you happen to be near a big cat (e.g. lion, tiger, lynx) that seems to be about to attack you, which of the following shouldnât you do in any case?",
+      "question": "If you happen to be near a big cat (e.g. lion, tiger, lynx) that seems to be about to attack you, which of the following shouldn't you do in any case?",
       "category": "animals",
       "answer": "Turn back and run",
       "choices": [
@@ -5115,7 +5115,7 @@
       "category": "animals",
       "answer": "Muhammad was born",
       "choices": [
-        "The Qurâan was written in book form",
+        "The Qur'an was written in book form",
         "Muhammad received his first revelation",
         "Muhammad was born",
         "Muhammad became ill and died"
@@ -5319,7 +5319,7 @@
       ]
     },
     {
-      "question": "The proper spelling of this insectâs name is preying mantis even though it is commonly referred to as praying mantis.",
+      "question": "The proper spelling of this insect's name is preying mantis even though it is commonly referred to as praying mantis.",
       "category": "animals",
       "answer": "False",
       "choices": [
@@ -5702,7 +5702,7 @@
       ]
     },
     {
-      "question": "How long does a Clydesdale horseâs pregnancy last?",
+      "question": "How long does a Clydesdale horse's pregnancy last?",
       "category": "animals",
       "answer": "11 Months",
       "choices": [
@@ -8449,7 +8449,7 @@
       "choices": [
         "Beluga whale",
         "Sei whale",
-        "Brydeâs whale",
+        "Bryde's whale",
         "Minke whale"
       ]
     },
@@ -8472,7 +8472,7 @@
         "Irrawaddy dolphin",
         "Bottlenose dolphin",
         "Boto",
-        "Rissoâs dolphin"
+        "Risso's dolphin"
       ]
     },
     {
@@ -8482,7 +8482,7 @@
       "choices": [
         "Dwarf sperm whale",
         "Pygmy sperm whale",
-        "Andrewâs beaked whale",
+        "Andrew's beaked whale",
         "Fin whale"
       ]
     },
@@ -8494,18 +8494,18 @@
         "Strapped-tooth whale",
         "Narwhal",
         "Long-finned pilot whale",
-        "Blainvilleâs beaked whale"
+        "Blainville's beaked whale"
       ]
     },
     {
-      "question": "The largest family of whales is the beaked whales (Ziphiidae). Most of the scarce information about this family has been found from dead specimens. Their teeth are the most distinctive aspect of these whales; most have only 2-4 oversized teeth. Which whaleâs teeth erupt from bulges in the lower jaw?",
+      "question": "The largest family of whales is the beaked whales (Ziphiidae). Most of the scarce information about this family has been found from dead specimens. Their teeth are the most distinctive aspect of these whales; most have only 2-4 oversized teeth. Which whale's teeth erupt from bulges in the lower jaw?",
       "category": "animals",
-      "answer": "Blainvilleâs beaked whale",
+      "answer": "Blainville's beaked whale",
       "choices": [
-        "Stejnegerâs beaked whale",
-        "Longmanâs beaked whale",
-        "Blainvilleâs beaked whale",
-        "Arnouxâs beaked whale"
+        "Stejneger's beaked whale",
+        "Longman's beaked whale",
+        "Blainville's beaked whale",
+        "Arnoux's beaked whale"
       ]
     },
     {
@@ -8547,7 +8547,7 @@
       "answer": "Pacific white-sided dolphin",
       "choices": [
         "Dusky dolphin",
-        "Dallâs porpoise",
+        "Dall's porpoise",
         "Pacific white-sided dolphin",
         "Pantropical dolphin"
       ]
@@ -8580,7 +8580,7 @@
       "answer": "Atlantic white-sided dolphin",
       "choices": [
         "Atlantic white-sided dolphin",
-        "Hectorâs dolphin",
+        "Hector's dolphin",
         "Atlantic yellow-sided dolphin",
         "Common dolphin"
       ]
@@ -9703,7 +9703,7 @@
       ]
     },
     {
-      "question": "For which of these animals is the following description true: The gestation period lasts 35â58 days. Smaller species have 5-6 babies, and larger species - 3-4 babies. The young are born blind.",
+      "question": "For which of these animals is the following description true: The gestation period lasts 35->58 days. Smaller species have 5-6 babies, and larger species - 3-4 babies. The young are born blind.",
       "category": "animals",
       "answer": "Hedgehog",
       "choices": [
@@ -10745,7 +10745,7 @@
       "category": "animals",
       "answer": "Golden-capped fruit bat",
       "choices": [
-        "Livingstoneâs Fruit Bat",
+        "Livingstone's Fruit Bat",
         "Fijian Monkey-faced Bat",
         "Hammer-headed bat",
         "Golden-capped fruit bat"

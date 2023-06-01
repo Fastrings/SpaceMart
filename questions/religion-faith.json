@@ -579,7 +579,7 @@
         ]
     },
     {
-        "question": "In the Bible texts, 'Am I my brotherâs keeper?' was a question asked by Cain to God.",
+        "question": "In the Bible texts, 'Am I my brother's keeper?' was a question asked by Cain to God.",
         "category": "religion-faith",
         "answer": "True",
         "choices": [
@@ -933,7 +933,7 @@
         ]
     },
     {
-        "question": "According to the Bible, did the Pharaohâs wife find little Moses who was drifting along the Nile in a basket.",
+        "question": "According to the Bible, did the Pharaoh's wife find little Moses who was drifting along the Nile in a basket.",
         "category": "religion-faith",
         "answer": "No",
         "choices": [
@@ -5003,7 +5003,7 @@
         ]
     },
     {
-        "question": "Percival was the first knight in Arthurian legend to see the Holy Grail in the castle of the Fisher King. He could not heal the Kingâs wound, though. Why?",
+        "question": "Percival was the first knight in Arthurian legend to see the Holy Grail in the castle of the Fisher King. He could not heal the King's wound, though. Why?",
         "category": "religion-faith",
         "answer": "He did not ask the right question.",
         "choices": [
@@ -5025,7 +5025,7 @@
         ]
     },
     {
-        "question": "The book âHoly Blood, Holy Grailâ by Michael Baigent, Richard Leigh, and Henry Lincoln proposes the hypothesis that Jesus and Mary Magdalene were actually married and upon Jesusâ death she fled to France, carrying his child.",
+        "question": "The book âHoly Blood, Holy Grail' by Michael Baigent, Richard Leigh, and Henry Lincoln proposes the hypothesis that Jesus and Mary Magdalene were actually married and upon Jesus' death she fled to France, carrying his child.",
         "category": "religion-faith",
         "answer": "True",
         "choices": [
@@ -5833,7 +5833,7 @@
         "category": "religion-faith",
         "answer": "Hagia Sophia",
         "choices": [
-            "Saint Catherineâs Monastery",
+            "Saint Catherine's Monastery",
             "None of these",
             "The Church of Our Lady Mary of Zion",
             "Hagia Sophia"
@@ -5842,12 +5842,12 @@
     {
         "question": "Which monastery lies at the foot of Mount Sinai, where, according to the Hebrew Bible, Moses received the Ten Commandments from God?",
         "category": "religion-faith",
-        "answer": "Saint Catherineâs Monastery",
+        "answer": "Saint Catherine's Monastery",
         "choices": [
             "St. Anthony Monastery",
             "St. Simeon Monastery",
             "St. Paul Monastery",
-            "Saint Catherineâs Monastery"
+            "Saint Catherine's Monastery"
         ]
     },
     {
@@ -6149,7 +6149,7 @@
         ]
     },
     {
-        "question": "This was a common torture method used in Scotland, which made the accused witch confess her deeds. The method caused hallucinations and made it easy for the inquisitors to extort confessions to flying, turning into animals, meeting the devil and taking part in witchesâ Sabbaths.",
+        "question": "This was a common torture method used in Scotland, which made the accused witch confess her deeds. The method caused hallucinations and made it easy for the inquisitors to extort confessions to flying, turning into animals, meeting the devil and taking part in witches' Sabbaths.",
         "category": "religion-faith",
         "answer": "Sleep deprivation",
         "choices": [

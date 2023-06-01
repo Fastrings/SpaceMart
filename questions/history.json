@@ -1270,7 +1270,7 @@
         ]
     },
     {
-        "question": "This US President introduced his policy of âvietnamizationâ- enabling the South Vietnamese to take more responsibility for fighting the war on their own.",
+        "question": "This US President introduced his policy of âvietnamization'- enabling the South Vietnamese to take more responsibility for fighting the war on their own.",
         "category": "history",
         "answer": "Richard Nixon",
         "choices": [
@@ -3148,7 +3148,7 @@
         ]
     },
     {
-        "question": "The United States gained almost half of the territory of Mexico after the Mexican War from 1846â1848.",
+        "question": "The United States gained almost half of the territory of Mexico after the Mexican War from 1846->1848.",
         "category": "history",
         "answer": "True",
         "choices": [
@@ -3212,7 +3212,7 @@
         ]
     },
     {
-        "question": "Operation Torch was planned to bring Morocco and Algiers under the Alliesâ domination. Who was the general in charge of the operation?",
+        "question": "Operation Torch was planned to bring Morocco and Algiers under the Allies' domination. Who was the general in charge of the operation?",
         "category": "history",
         "answer": "Dwight Eisenhower",
         "choices": [
@@ -3657,7 +3657,7 @@
         ]
     },
     {
-        "question": "This instrument of torture was thrust into the victimsâ chin and sternum rendering them motionless.",
+        "question": "This instrument of torture was thrust into the victims' chin and sternum rendering them motionless.",
         "category": "history",
         "answer": "The Heretics Fork",
         "choices": [
@@ -3679,7 +3679,7 @@
         ]
     },
     {
-        "question": "This torture device was used to rip the victimâs flesh to shreds. Once this was accomplished, the victim would be left to dangle alive, with arms bound, left at the mercy of flies and other insects.",
+        "question": "This torture device was used to rip the victim's flesh to shreds. Once this was accomplished, the victim would be left to dangle alive, with arms bound, left at the mercy of flies and other insects.",
         "category": "history",
         "answer": "Cats paws",
         "choices": [
@@ -3710,7 +3710,7 @@
         ]
     },
     {
-        "question": "This device was commonly used on witches who were believed to be carrying the Satanâs child.",
+        "question": "This device was commonly used on witches who were believed to be carrying the Satan's child.",
         "category": "history",
         "answer": "The saw",
         "choices": [
@@ -5261,7 +5261,7 @@
         ]
     },
     {
-        "question": "The Fourth Crusade (1202â1204) was called upon by Pope Innocent II and was originally intended to retake Jerusalem by conquering this country.",
+        "question": "The Fourth Crusade (1202->1204) was called upon by Pope Innocent II and was originally intended to retake Jerusalem by conquering this country.",
         "category": "history",
         "answer": "Egypt",
         "choices": [
@@ -7551,11 +7551,11 @@
     {
         "question": "Classic Maya kings carried this title, meaning supreme and sacred ruler.",
         "category": "history",
-        "answer": "Kâul ahau",
+        "answer": "K'ul ahau",
         "choices": [
             "Ahu hai",
             "Ahau hai",
-            "Kâul ahau",
+            "K'ul ahau",
             "Kul ahu"
         ]
     },
@@ -7639,7 +7639,7 @@
         "category": "history",
         "answer": "The relocation of the US Embassy in Iran",
         "choices": [
-            "The formation of U.S. Armyâs 160th Special Operations Aviation Regiment",
+            "The formation of U.S. Army's 160th Special Operations Aviation Regiment",
             "The relocation of the US Embassy in Iran",
             "The creation of  US Special Operations Command (USSOCOM)",
             "The plan for a second rescue mission, Operation Credible Sport"
@@ -8616,7 +8616,7 @@
         ]
     },
     {
-        "question": "During the period of the Cold War, there was a conflict between the Democratic Republic of Vietnam and Republic of Vietnam, known as The Vietnam War (1957â1975).",
+        "question": "During the period of the Cold War, there was a conflict between the Democratic Republic of Vietnam and Republic of Vietnam, known as The Vietnam War (1957->1975).",
         "category": "history",
         "answer": "True",
         "choices": [
@@ -11704,7 +11704,7 @@
         "answer": "Thirty Years War",
         "choices": [
             "Franco-Prussian War",
-            "MexicanâAmerican War",
+            "Mexican->American War",
             "Napoleonic Wars",
             "Thirty Years War"
         ]
@@ -13488,7 +13488,7 @@
         ]
     },
     {
-        "question": "Never in the field of human conflict has so much been owed by so many to so few.â In this famous quote by Winston Churchill who were the few he was referring to?",
+        "question": "Never in the field of human conflict has so much been owed by so many to so few.' In this famous quote by Winston Churchill who were the few he was referring to?",
         "category": "history",
         "answer": "British fighter pilots",
         "choices": [
@@ -15137,7 +15137,7 @@
         ]
     },
     {
-        "question": "This invention was first used in 1969 at UCLA as a means of communication between engineers and scientists associated with academics or government. It was not available for public use until the 1990âs.",
+        "question": "This invention was first used in 1969 at UCLA as a means of communication between engineers and scientists associated with academics or government. It was not available for public use until the 1990's.",
         "category": "history",
         "answer": "The Internet",
         "choices": [
@@ -17008,7 +17008,7 @@
         ]
     },
     {
-        "question": "Few people know that this person holds a patent for a type of disposable childâs diaper.",
+        "question": "Few people know that this person holds a patent for a type of disposable child's diaper.",
         "category": "history",
         "answer": "Jamie Lee Curtis",
         "choices": [
@@ -17063,7 +17063,7 @@
         ]
     },
     {
-        "question": "If you recall well the performances of these men, it wonât be hard to guess which one of them holds a patent for a device that allows a performer to lean forward past his center of gravity.",
+        "question": "If you recall well the performances of these men, it won't be hard to guess which one of them holds a patent for a device that allows a performer to lean forward past his center of gravity.",
         "category": "history",
         "answer": "Michael Jackson",
         "choices": [

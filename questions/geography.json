@@ -2081,7 +2081,7 @@
         ]
     },
     {
-        "question": "In which country is the European Unionâs biggest lake located?",
+        "question": "In which country is the European Union's biggest lake located?",
         "category": "geography",
         "answer": "In Sweden",
         "choices": [
@@ -3117,7 +3117,7 @@
         ]
     },
     {
-        "question": "The word âoceanâ is of Greek origin.",
+        "question": "The word âocean' is of Greek origin.",
         "category": "geography",
         "answer": "True",
         "choices": [
@@ -3137,7 +3137,7 @@
         ]
     },
     {
-        "question": "What portion of the Earthâs surface do oceans cover?",
+        "question": "What portion of the Earth's surface do oceans cover?",
         "category": "geography",
         "answer": "More than two thirds",
         "choices": [
@@ -4721,12 +4721,12 @@
     {
         "question": "Which was the seat of colonial government in Maryland until 1708?",
         "category": "geography",
-        "answer": "St. Maryâs City",
+        "answer": "St. Mary's City",
         "choices": [
             "Annapolis",
             "Port Tobacco",
             "Baltimore",
-            "St. Maryâs City"
+            "St. Mary's City"
         ]
     },
     {
@@ -4741,7 +4741,7 @@
         ]
     },
     {
-        "question": "What are Marylandâs two official state nicknames?",
+        "question": "What are Maryland's two official state nicknames?",
         "category": "geography",
         "answer": "'The Old Line State' and 'The Free State'",
         "choices": [

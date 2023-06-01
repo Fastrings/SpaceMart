@@ -1738,7 +1738,7 @@
         ]
     },
     {
-        "question": "This is a traditional Scottish dish, boiled in a sheepâs stomach. Some of the main ingredients are sheepâs pluck, onion, salt and spices.",
+        "question": "This is a traditional Scottish dish, boiled in a sheep's stomach. Some of the main ingredients are sheep's pluck, onion, salt and spices.",
         "category": "hobbies",
         "answer": "Haggis",
         "choices": [
@@ -1793,7 +1793,7 @@
         ]
     },
     {
-        "question": "This delicacy, typical for âThe Country of the Rising Sunâ, usually only consists of thinly sliced raw seafood, dipping sauce and garnish.",
+        "question": "This delicacy, typical for âThe Country of the Rising Sun', usually only consists of thinly sliced raw seafood, dipping sauce and garnish.",
         "category": "hobbies",
         "answer": "Sashimi",
         "choices": [
@@ -1826,7 +1826,7 @@
         ]
     },
     {
-        "question": "This German dish, whose name means sowâs stomach is popular in Palatinate, a region in south-western Germany.",
+        "question": "This German dish, whose name means sow's stomach is popular in Palatinate, a region in south-western Germany.",
         "category": "hobbies",
         "answer": "Saumagen",
         "choices": [
@@ -2152,7 +2152,7 @@
         ]
     },
     {
-        "question": "The federal tax on liquor and distilled drinks imposed in 1791 by Alexander Hamilton caused public protests and an uprising, known as the Whiskey Rebellionâ, which culminated in 1794. In which US state did the riot break out?",
+        "question": "The federal tax on liquor and distilled drinks imposed in 1791 by Alexander Hamilton caused public protests and an uprising, known as the Whiskey Rebellion', which culminated in 1794. In which US state did the riot break out?",
         "category": "hobbies",
         "answer": "Pennsylvania",
         "choices": [
@@ -2174,7 +2174,7 @@
         ]
     },
     {
-        "question": "âGive an Irishman lager for a month, and hes a dead man. An Irishman is lined with copper, and the beer corrodes it. But whiskey polishes the copper and is the saving of him.â These words were written by an American novelist and humorist, who used a pseudonym. The Mississippi river has a central role in some of his stories.  Name him.",
+        "question": "âGive an Irishman lager for a month, and hes a dead man. An Irishman is lined with copper, and the beer corrodes it. But whiskey polishes the copper and is the saving of him.' These words were written by an American novelist and humorist, who used a pseudonym. The Mississippi river has a central role in some of his stories.  Name him.",
         "category": "hobbies",
         "answer": "Mark Twain",
         "choices": [
@@ -2218,7 +2218,7 @@
         ]
     },
     {
-        "question": "The âScotch Whisky Act 1988â legally defines Scotch whisky. Which of these is the standard that whisky must meet in order to be called, Scotch Whisky?",
+        "question": "The âScotch Whisky Act 1988' legally defines Scotch whisky. Which of these is the standard that whisky must meet in order to be called, Scotch Whisky?",
         "category": "hobbies",
         "answer": "All of these",
         "choices": [
@@ -2471,7 +2471,7 @@
         ]
     },
     {
-        "question": "Name the American author of childrenâs literature, poetry and prose who made the following observation regarding chocolate: Strength is the capacity to break a chocolate bar into four pieces with your bare hands - and then eat just one of the pieces.",
+        "question": "Name the American author of children's literature, poetry and prose who made the following observation regarding chocolate: Strength is the capacity to break a chocolate bar into four pieces with your bare hands - and then eat just one of the pieces.",
         "category": "hobbies",
         "answer": "Judith Viorst",
         "choices": [
@@ -2484,23 +2484,23 @@
     {
         "question": "Name the 1994 movie, directed by Robert Zemeckis, in which the main character compared life to a box of chocolates.",
         "category": "hobbies",
-        "answer": "âForrest Gumpâ",
+        "answer": "âForrest Gump'",
         "choices": [
             "What Lies Beneath",
             "Charlie and the Chocolate Factory",
-            "âForrest Gumpâ",
+            "âForrest Gump'",
             "Cast Away"
         ]
     },
     {
-        "question": "The scientific name of the evergreen tree cacao, the source of cocoa and chocolate, is Theobroma Cacao. What does âTheobromaâ mean in Greek?",
+        "question": "The scientific name of the evergreen tree cacao, the source of cocoa and chocolate, is Theobroma Cacao. What does âTheobroma' mean in Greek?",
         "category": "hobbies",
-        "answer": "âfood of the godsâ",
+        "answer": "âfood of the gods'",
         "choices": [
-            "âcurse of the godsâ",
-            "âfood of the godsâ",
-            "âmade by the godsâ",
-            "âforbidden by the godsâ"
+            "âcurse of the gods'",
+            "âfood of the gods'",
+            "âmade by the gods'",
+            "âforbidden by the gods'"
         ]
     },
     {
@@ -3083,12 +3083,12 @@
     {
         "question": "During World War 2 the game Monopoly was used by the British Secret Services for this very practical and clever purpose.",
         "category": "hobbies",
-        "answer": "To secretly provide prisoners of war held by the Nazis with useful objects â maps, compasses, real money, etc.",
+        "answer": "To secretly provide prisoners of war held by the Nazis with useful objects -> maps, compasses, real money, etc.",
         "choices": [
             "To draw away the attention of Nazi soldiers",
             "To code secret information about key German targets and send it to GB disguised as a Monopoly game",
             "None of these",
-            "To secretly provide prisoners of war held by the Nazis with useful objects â maps, compasses, real money, etc."
+            "To secretly provide prisoners of war held by the Nazis with useful objects -> maps, compasses, real money, etc."
         ]
     },
     {
@@ -5177,10 +5177,10 @@
     {
         "question": "Which of these remarks about Champagne was made by Sir Winston Churchill in 1918?",
         "category": "hobbies",
-        "answer": "Remember gentlemen, itâs not just France we are fighting for, itâs Champagne!",
+        "answer": "Remember gentlemen, it's not just France we are fighting for, it's Champagne!",
         "choices": [
             "Gentlemen, in the little moment that remains to us between the crisis and the catastrophe, we may as well drink a glass of champagne.",
-            "Remember gentlemen, itâs not just France we are fighting for, itâs Champagne!",
+            "Remember gentlemen, it's not just France we are fighting for, it's Champagne!",
             "In victory, you deserve Champagne, in defeat, you need it.",
             "Some people wanted Champagne and caviar when they should have had beer and hot dogs."
         ]
@@ -5732,7 +5732,7 @@
         ]
     },
     {
-        "question": "When playing Blackjack in a casino, there are two proper ways to announce your decision after youâve received a card â either say it aloud or use some of the commonly accepted non-verbal signs.",
+        "question": "When playing Blackjack in a casino, there are two proper ways to announce your decision after you've received a card -> either say it aloud or use some of the commonly accepted non-verbal signs.",
         "category": "hobbies",
         "answer": "False",
         "choices": [
@@ -10920,7 +10920,7 @@
         ]
     },
     {
-        "question": "Since 1977, there has been an annual world championship of this game, which requires a strategy of much planning and looking further ahead in your opponentâs possible moves.  Goro Hasegawa popularized the game in Japan in 1975.",
+        "question": "Since 1977, there has been an annual world championship of this game, which requires a strategy of much planning and looking further ahead in your opponent's possible moves.  Goro Hasegawa popularized the game in Japan in 1975.",
         "category": "hobbies",
         "answer": "Othello",
         "choices": [
@@ -12350,7 +12350,7 @@
         ]
     },
     {
-        "question": "The worldâs most expensive coffee, Kopi Luwak, goes through a unique harvesting process. In Indonesian, 'kopi' means coffee and 'luwak' means what?",
+        "question": "The world's most expensive coffee, Kopi Luwak, goes through a unique harvesting process. In Indonesian, 'kopi' means coffee and 'luwak' means what?",
         "category": "hobbies",
         "answer": "Civet",
         "choices": [
