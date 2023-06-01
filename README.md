@@ -17,10 +17,10 @@ If you wish to try out this program on your own computer, make sure to have Pyth
 The program can be launched from the command line using the following command :
 
 ```bash
-$ python main.py -b X
+$ python main.py -b X --quiz-enabled Y/N
 ```
 
-Here, replace *X* by the starting budget you would like to input in the program. Keep in mind that if you choose a number too low and your budget falls below 0, the program will stop.
+Here, replace *X* by the starting budget you would like to input in the program. Keep in mind that if you choose a number too low and your budget falls below 0, the program will stop. You can also specify whether you want the quizzes enabled or not by prompting 'Y' (Yes) or 'N' (No) after the --quiz-enabled option.
 
 ## Main features
 
@@ -40,6 +40,12 @@ If you want to run the test suite, go to the root of the project and enter the f
 ```bash
 $ python -m unittest discover -s tests
 ```
+
+## Quizzes
+
+Every week, the user can gamble some amount of money to answer a quiz. A correct answer will result in doubling the money that was bet, whereas a wrong answer will simply mean the loss of the bet.
+
+It is possible to enable/disable this feature via the command line, please refer to this section [How to use](#how-to-use) for more information.
 
 ## Credits
 
