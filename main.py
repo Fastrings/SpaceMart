@@ -61,7 +61,9 @@ def main_loop(mart):
             mart.apply_discounts()
             mart.make_sales()
 
-            result = pyip.inputMenu(['Continue', 'Give up', 'Fast forward', 'Quiz Me!'], "What do you want to do?\n", numbered=True)
+            menu_choices = ['Continue', 'Give up', 'Fast forward', 'Quiz Me!'] if mart.quiz_enabled else ['Continue', 'Give up', 'Fast forward']
+
+            result = pyip.inputMenu(menu_choices, "What do you want to do?\n", numbered=True)
             match result:
                 case 'Continue':
                     pass
@@ -98,10 +100,11 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Emulation of an inventory management system.")
 
     parser.add_argument("-b", "--budget", required=True, help="starting budget B of space mart", metavar="B")
+    parser.add_argument("--quiz-enabled", required=True, help="Whether or not quizzes are enabled (Y/N)", choices={"Y", "N"})
 
     args = parser.parse_args()
 
-    mart = SpaceMart(int(args.budget))
+    mart = SpaceMart(int(args.budget), quiz_enabled=(args.quiz_enabled == "Y"))
     print("This is the beginning of the program.")
     print(f"Your starting budget is: {mart.budget}.")
     print("Good luck!")

@@ -5,7 +5,7 @@ import random
 
 class SpaceMart():
 
-    def __init__(self, budget, start_day=1):
+    def __init__(self, budget, quiz_enabled, start_day = 1):
         self.budget = budget
         self.days = start_day
         self.products = []
@@ -13,6 +13,7 @@ class SpaceMart():
         self.bonus_taxes = 0
         self.sales_reduction = 0
         self.taxes = 75000
+        self.quiz_enabled = quiz_enabled
 
         self.init_products(get_starting_inventory())
 
